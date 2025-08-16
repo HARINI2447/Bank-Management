@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #004080;
+    }
+    .button {
+      background: #004080;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background: #0066cc;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background: #004080;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Bank</h1>
+  </header>
+  <div class="container">
+    <h2>Account Dashboard</h2>
+    <p><strong>Account Holder:</strong> John</p>
+    <p><strong>Account Number:</strong> 123456789</p>
+    <p><strong>Balance:</strong> $5,000</p>
+    <button class="button">Deposit</button>
+    <button class="button">Withdraw</button>
+    
+    <h2>Transaction History</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Balance</th>
+      </tr>
+      <tr>
+        <td>2025-08-10</td>
+        <td>Deposit</td>
+        <td>$500</td>
+        <td>$5,000</td>
+      </tr>
+      <tr>
+        <td>2025-08-05</td>
+        <td>Withdraw</td>
+        <td>$200</td>
+        <td>$4,500</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
